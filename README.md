@@ -30,3 +30,12 @@ To submit a job run:
 ```
 echo "echo Running test from $HOSTNAME" | qsub
 ```
+
+
+## References:
+
+https://hub.docker.com/r/robsyme/docker-sge
+
+https://github.com/epam/grid-engine-api/blob/develop/docker/sge/Dockerfile
+
+https://github.com/jedisct1/phusion-baseimage-latest/blob/master/Changelog.md
