@@ -39,3 +39,5 @@ https://hub.docker.com/r/robsyme/docker-sge
 https://github.com/epam/grid-engine-api/blob/develop/docker/sge/Dockerfile
 
 https://github.com/jedisct1/phusion-baseimage-latest/blob/master/Changelog.md
+
+https://github.com/gridengine/config-api/blob/master/etc/uge.conf
