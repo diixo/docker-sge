@@ -31,6 +31,10 @@ To submit a job run:
 echo "echo Running test from $HOSTNAME" | qsub
 ```
 
+### Check status:
+```
+/opt/sge/bin/lx-amd64/qstat -f
+```
 
 ## References:
 
