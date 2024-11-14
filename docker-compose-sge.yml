@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  sge:
+    image: diixo/docker-sge
+    container_name: sge
+    stdin_open: true       # Equivalent to -i
+    tty: true              # Equivalent to -t
+    ports:
+      - "6444:6444"
+    environment:
+      - SGE_QMASTER_PORT=6444
+    command: /bin/bash -c "sleep infinity && login -f sgeuser"
+
