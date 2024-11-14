@@ -14,16 +14,16 @@ docker build -t gawbul/docker-sge .
 To pull from the Docker Hub type:
 
 ```
-docker pull gawbul/docker-sge
+docker pull robsyme/docker-sge
 ```
 
 To run the image in a container type:
 
 ```
-docker run -it --rm gawbul/docker-sge login -f sgeadmin
+docker run -it --rm robsyme/docker-sge login -f sgeuser
 ```
 
-**You need the `login -f sgeadmin` as root isn't allowed to submit jobs**
+**You need the `login -f sgeuser` as root isn't allowed to submit jobs**
 
 To submit a job run:
 
