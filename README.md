@@ -31,8 +31,9 @@ To submit a job run:
 echo "echo Running test from $HOSTNAME" | qsub
 ```
 
-### Check status:
+### Check status inside container:
 ```
+docker exec -it sge bash
 /opt/sge/bin/lx-amd64/qstat -f
 ```
 
